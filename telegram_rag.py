@@ -14,8 +14,8 @@ telegram_channel_id = input("Telegram Channel ID: ")
 
 loader = TelegramChatApiLoader(
     chat_entity=f"t.me/{telegram_channel_id}",  # recommended to use Entity here
-    api_hash="",
-    api_id="",
+    api_hash="<Input Hash from Dev Portal>",
+    api_id="<Input ID from Dev Portal>",
     username=telegram_channel_id,  # needed only for caching the session.
 )
 
